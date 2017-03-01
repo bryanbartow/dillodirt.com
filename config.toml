@@ -117,7 +117,7 @@ googleAnalytics = "UA-18164082-1"
             [[params.services.row.list]]
                 icon = "fa-comment"
                 title = "Katie S."
-                description = "My lawn was in fairly bad shape when I called DilloDirt.com. They treated my lawn and it looks better than ever. They worked quickly and I couldn’t be happier with the results."
+                description = "My lawn was in fairly bad shape when I called DilloDirt.com. They treated my lawn and it looks better than ever. They worked quickly and I couldn’t be happier with the results." 
 						
 						[[params.services.row.list]]
                 icon = "fa-comment"
