@@ -77,28 +77,28 @@ googleAnalytics = "UA-18164082-1"
         enable = true
 		title = "Services"
 		subtitle = "What we do"
-		endpoint = "And<br>much<br>more!"
+		endpoint = "The best<br>service in<br>Austin"
 
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 		[[params.about.events]]
 			img = "1.jpg"
-			date = "Delivery and Spreading"
+			date = "Dillo Dirt Delivery"
 			title = ""
-			description = "Not only will we bring the Dillo Dirt to your house, but we'll spread it for you. Our specialized equipment allows us to quickly create an even layer of dirt across your lawn."
+			description = "Dillo Dirt™ is a topdressing fertilizer made by the City of Austin since 1989 and is a quality soil mixture made from recycled materials. We'll bring it straight to your house."
 
 		[[params.about.events]]
 			img = "2.jpg"
+			date = "Dillo Dirt Spreading"
+			title = ""
+			description = "Not only will we bring the Dillo Dirt to your house, but we'll spread it for you. Our specialized equipment allows us to quickly create an even layer of Dillo Dirt across your lawn."
+
+		[[params.about.events]]
+			img = "3.jpg"
 			date = "Aeration"
 			title = ""
 			description = "One of the most beneficial things you can do for your lawn is “core aeration”. It relieves soil compaction by removing plugs of soil ¾ inch wide & 2 ½ to 3 inches long. The removal of these plugs is a form of cultivation that allows more oxygen, nutrients, and water to reach root systems. Aeration loosens the soil, making it easier for root systems to develop and stay healthy."
-
-		#[[params.about.events]]
-			#img = "3.jpg"
-			#date = "Roof Clearance"
-			#title = ""
-			#description = "Moving the tree canopy away from the roof can be a delicate operation and, if not done right, can be very costly. Mike's Tree Service experts have the experience and skills to clear your roof without causing damage."
 
 		#[[params.about.events]]
 		#	img = "4.jpg"
@@ -116,18 +116,18 @@ googleAnalytics = "UA-18164082-1"
 
             [[params.services.row.list]]
                 icon = "fa-comment"
-                title = "Joyce C."
-                description = "We are happy to be repeat customers of Mike’s Tree Service. They will give you speedy, honest, dependable and friendly service. They are definitely on our speed-dial for future tree service!"
-
-            [[params.services.row.list]]
+                title = "Katie S."
+                description = "My lawn was in fairly bad shape when I called DilloDirt.com. They treated my lawn and it looks better than ever. They worked quickly and I couldn’t be happier with the results."
+						
+						[[params.services.row.list]]
                 icon = "fa-comment"
                 title = "Kyle W."
-                description = "We love Mikes tree service. The most honest and dependable company I have worked with. They showed up on time and I love the fact the didn’t collect any money until the final walk through. I would recomend them to anyone out there. My trees look great thanks guys!"
+                description = "We love DilloDirt.com. The most honest and dependable company I have worked with. They showed up on time and I love the fact they didn’t collect any money until the work was done. I would recomend them to anyone out there. My yard looks great. Thanks guys!"
 
             [[params.services.row.list]]
                 icon = "fa-comment"
-                title = "Mary H."
-                description = "Mike’s Tree Service did exactly what they said they would do at the price quoted. Very professional. Took care to remove all debris. Would definitely hire this company again."
+                title = "Bryan B."
+                description = "I called the guys at DilloDirt.com to help me out. They came and treated the yard and the results are amazing! I couldn’t be happier with their quality of work and professionalism."
 
 	# Portfolio section
 	[params.portfolio]
