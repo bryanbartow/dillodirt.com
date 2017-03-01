@@ -1,0 +1,24 @@
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jquery.js"></script>
+{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+{{ "<!-- Plugin JavaScript -->" | safeHTML }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/classie.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/cbpAnimatedHeader.min.js"></script>
+{{ "<!-- Contact Form JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jqBootstrapValidation.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/contact_me.min.js"></script>
+{{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/agency.min.js"></script>
+{{ template "_internal/google_analytics.html" . }}
+
+{{ range .Site.Params.custom_js }}
+    <script src="{{ . | absURL }}"></script>
+{{ end }}
+
+<!-- Obfuscate the email address to hopefully fool the spam bots -->
+<script>
+    var contactform =  document.getElementById('contactForm');
+    contactform.setAttribute('action', '//formspree.io/' + 'jasonbrosie' + '@' + 'gmail' + '.' + 'com');
+</script>

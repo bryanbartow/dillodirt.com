@@ -1,0 +1,258 @@
+# Site settings
+baseurl = "./"
+languageCode = "en-us"
+title = "DilloDirt.com"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-18164082-1"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "DilloDirt.com"
+	description = "Dillo Dirt Delivery and Spreading"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "dominic@dillodirt.com"
+
+    # Link custom assets relative to /static
+    custom_css = []
+    custom_js  = []
+
+
+	# Navigation
+	[params.navigation]
+		brand = "DilloDirt.com"
+		about = "Services"
+		services = "Testimonials"
+		portfolio = "Portfolio"
+		team = "Team"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #    url = "http://gohugo.io"
+    #    name = "External link"
+    #    weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Call or click for a free quote"
+		subtitle = "512-299-1938"
+		buttonText = "Get a Free Quote"
+
+	# About section
+	[params.about]
+        enable = true
+		title = "Services"
+		subtitle = "What we do"
+		endpoint = "And<br>much<br>more!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			date = "Delivery and Spreading"
+			title = ""
+			description = "Not only will we bring the Dillo Dirt to your house, but we'll spread it for you. Our specialized equipment allows us to quickly create an even layer of dirt across your lawn."
+
+		[[params.about.events]]
+			img = "2.jpg"
+			date = "Aeration"
+			title = ""
+			description = "One of the most beneficial things you can do for your lawn is “core aeration”. It relieves soil compaction by removing plugs of soil ¾ inch wide & 2 ½ to 3 inches long. The removal of these plugs is a form of cultivation that allows more oxygen, nutrients, and water to reach root systems. Aeration loosens the soil, making it easier for root systems to develop and stay healthy."
+
+		#[[params.about.events]]
+			#img = "3.jpg"
+			#date = "Roof Clearance"
+			#title = ""
+			#description = "Moving the tree canopy away from the roof can be a delicate operation and, if not done right, can be very costly. Mike's Tree Service experts have the experience and skills to clear your roof without causing damage."
+
+		#[[params.about.events]]
+		#	img = "4.jpg"
+		#	date = "July 2014"
+		#	title = "Phase Two Expansion"
+		#	description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "Testimonials"
+		subtitle = "What our customers say about us"
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-comment"
+                title = "Joyce C."
+                description = "We are happy to be repeat customers of Mike’s Tree Service. They will give you speedy, honest, dependable and friendly service. They are definitely on our speed-dial for future tree service!"
+
+            [[params.services.row.list]]
+                icon = "fa-comment"
+                title = "Kyle W."
+                description = "We love Mikes tree service. The most honest and dependable company I have worked with. They showed up on time and I love the fact the didn’t collect any money until the final walk through. I would recomend them to anyone out there. My trees look great thanks guys!"
+
+            [[params.services.row.list]]
+                icon = "fa-comment"
+                title = "Mary H."
+                description = "Mike’s Tree Service did exactly what they said they would do at the price quoted. Very professional. Took care to remove all debris. Would definitely hire this company again."
+
+	# Portfolio section
+	[params.portfolio]
+        enable = false
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Testimonials"
+		subtitle = "What our customers have to say"
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+	# Team section
+	[params.team]
+        enable = false
+		title = "Our amazing team"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "1.jpg"
+			name = "Kay Garland"
+			position = "Lead Designer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "2.jpg"
+			name = "Larry Parker"
+			position = "Lead Marketer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "3.jpg"
+			name = "Diana Pertersen"
+			position = "Lead Developer"
+			social = [
+				["fa-twitter", "#"],
+				["fa-facebook", "#"],
+				["fa-linkedin", "#"]
+			]
+
+	# Client section
+    [params.clients_list]
+        enable = false
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "envato.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "designmodo.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "themeforest.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "creative-market.jpg"
+    		link = "#"
+
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact us"
+		subtitle  = "Request a free quote"
+		buttonText = "Get Quote"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Tell us what you need done*"
+			warning = "Please enter a description of work needed."
+
+
+	# Footer section
+	[params.footer]
+        enable = true
+		copyright = "DilloDirt.com © 2017. All Rights Reserved."
+
+		[[params.footer.social]]
+			icon = "fa-yelp"
+			link = "https://www.yelp.com/biz/dillo-dirt-round-rock"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "https://www.facebook.com/DilloDirt/"
+
+		#[[params.footer.social]]
+			#icon = "fa-twitter"
+			#link = "http://www.twitter.com/mikestrees"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
