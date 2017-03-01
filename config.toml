@@ -226,6 +226,10 @@ googleAnalytics = "UA-18164082-1"
 		[params.contact.form.phone]
 			text = "Your Phone *"
 			warning = "Please enter your phone number."
+			
+		[params.contact.form.address]
+			text = "Your Address *"
+			warning = "Please enter your address."
 
 		[params.contact.form.message]
 			text = "Tell us what you need done*"

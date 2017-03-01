@@ -20,5 +20,12 @@
 <!-- Obfuscate the email address to hopefully fool the spam bots -->
 <script>
     var contactform =  document.getElementById('contactForm');
-    contactform.setAttribute('action', '//formspree.io/' + 'jasonbrosie' + '@' + 'gmail' + '.' + 'com');
+    contactform.setAttribute('action', '//formspree.io/' + 'dominic' + '@' + 'dillodirt' + '.' + 'com');
+		
+		$(document).ready(function() {
+		    var $sub = $("#subjectInput");
+		    $("#nameInput").on("input", function() {
+		        $sub.val("Request for quote from " + $(this).val() + "");
+		    });
+		});
 </script>

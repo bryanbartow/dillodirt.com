@@ -13,7 +13,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
+                                <input type="text" id="nameInput" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
@@ -22,6 +22,10 @@
                             </div>
                             <div class="form-group">
                                 <input type="tel" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{ . | markdownify }}{{ end }}" name="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.warning }}{{ . | markdownify }}{{ end }}">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.address.text }}{{ . | markdownify }}{{ end }}" name="address" required data-validation-required-message="{{ with .Site.Params.contact.form.address.warning }}{{ . | markdownify }}{{ end }}">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
@@ -39,7 +43,7 @@
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
                             <button type="submit" class="btn btn-xl">{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}</button>
-                            <input type="hidden" name="_subject" value="Request for Quote" />
+                            <input type="hidden" id="subjectInput" name="_subject" value="Request for Quote from" />
                         </div>
                     </div>
                 </form>
