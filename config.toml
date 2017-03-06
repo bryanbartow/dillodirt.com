@@ -230,6 +230,14 @@ googleAnalytics = "UA-18164082-1"
 		[params.contact.form.address]
 			text = "Your Address *"
 			warning = "Please enter your address."
+			
+		[params.contact.form.city]
+			text = "Your City *"
+			warning = "Please enter your city."
+			
+		[params.contact.form.zip]
+			text = "Your Zipcode *"
+			warning = "Please enter your zipcode."
 
 		[params.contact.form.message]
 			text = "Tell us what you need done*"

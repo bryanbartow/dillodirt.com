@@ -29,6 +29,14 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
+                                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.city.text }}{{ . | markdownify }}{{ end }}" name="city" required data-validation-required-message="{{ with .Site.Params.contact.form.city.warning }}{{ . | markdownify }}{{ end }}">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.zip.text }}{{ . | markdownify }}{{ end }}" name="zip" required data-validation-required-message="{{ with .Site.Params.contact.form.zip.warning }}{{ . | markdownify }}{{ end }}">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
                                 <input type="text" name="_gotcha" style="display:none" />
                                 <p class="help-block text-danger"></p>
                             </div>
