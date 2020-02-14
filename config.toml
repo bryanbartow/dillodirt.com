@@ -31,7 +31,7 @@ googleAnalytics = "UA-18164082-1"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "dominic@dillodirt.com"
+	email = "sales@dillodirt.com"
 
     # Link custom assets relative to /static
     custom_css = []
@@ -69,7 +69,7 @@ googleAnalytics = "UA-18164082-1"
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
 		title = "Call or click for a free quote"
-		subtitle = "512-299-1938"
+		subtitle = "512-817-8959"
 		buttonText = "Get a Free Quote"
 
 	# About section
@@ -247,7 +247,7 @@ googleAnalytics = "UA-18164082-1"
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "DilloDirt.com © 2017. All Rights Reserved."
+		copyright = "DilloDirt.com © 2020. All Rights Reserved."
 
 		[[params.footer.social]]
 			icon = "fa-yelp"
