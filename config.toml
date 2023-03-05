@@ -31,7 +31,7 @@ googleAnalytics = "UA-18164082-1"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "sales@dillodirt.com"
+	email = "dominic@dillodirt.com"
 
     # Link custom assets relative to /static
     custom_css = []
@@ -96,9 +96,9 @@ googleAnalytics = "UA-18164082-1"
 
 		[[params.about.events]]
 			img = "3.jpg"
-			date = "Aeration"
+			date = "New Liquid Aeration"
 			title = ""
-			description = "One of the most beneficial things you can do for your lawn is “core aeration”. It relieves soil compaction by removing plugs of soil ¾ inch wide & 2 ½ to 3 inches long. The removal of these plugs is a form of cultivation that allows more oxygen, nutrients, and water to reach root systems. Aeration loosens the soil, making it easier for root systems to develop and stay healthy."
+			description = "Liquid aeration is a process that involves the use of a liquid solution to aerate soil, which has many benefits for plant growth and overall lawn health. Liquid aeration helps to break up compacted soil, allowing for better water and nutrient penetration to the roots of the grass. This can result in stronger root systems, improved drought resistance, and better overall plant health. Additionally, liquid aeration can improve the effectiveness of fertilizers and other soil treatments by allowing them to penetrate deeper into the soil. Overall, liquid aeration is a cost-effective and efficient way to promote a healthy lawn and garden."
 
 		#[[params.about.events]]
 		#	img = "4.jpg"
@@ -247,7 +247,7 @@ googleAnalytics = "UA-18164082-1"
 	# Footer section
 	[params.footer]
         enable = true
-		copyright = "DilloDirt.com © 2020. All Rights Reserved."
+		copyright = "DilloDirt.com © 2023. All Rights Reserved."
 
 		[[params.footer.social]]
 			icon = "fa-yelp"
